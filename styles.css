@@ -32,11 +32,11 @@ header {
 }
 
 .bg-head {
-	background: transparent url('images/pic_1.jpg') no-repeat center center fixed;
+	background: transparent url('images/pic_1.jpg') no-repeat center center;
 	background-position: top;
 	background-size: cover;
 	padding: 0;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	width: 100%;
 }
 
@@ -52,9 +52,42 @@ header {
 }
 
 #btn-register {
-	background-color: var(--color-purple);
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.55)!important;
+	background: var(--color-purple);
+	padding: 8px 21px 8px 20px;
 }
+
+/* .shadow {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.55)!important;
+} */
 
 .btn:hover {
 	opacity: 0.9;
+}
+
+.carousel-item {
+	font-size: 22px;
+	padding-right: 0px !important;
+}
+
+
+
+#block-image {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#block-quote {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.card-body {
+	margin-right: 0px;
+	padding: 10px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+	width: auto !important;
 }
