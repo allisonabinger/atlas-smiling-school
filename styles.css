@@ -20,6 +20,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	height: auto;
 }
 
 .navbar {
@@ -31,8 +32,7 @@ header {
 }
 
 .bg-head {
-	background: transparent;
-	background-image: url('images/pic_1.jpg');
+	background: transparent url('images/pic_1.jpg') no-repeat center center fixed;
 	background-position: top;
 	background-size: cover;
 	padding: 0;
@@ -48,7 +48,7 @@ header {
 }
 
 .display-1 {
-	font-size: 120px;
+	font-size: 100px;
 }
 
 #btn-register {
