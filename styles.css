@@ -88,6 +88,21 @@ header {
 }
 
 .carousel-control-next,
-.carousel-control-prev {
+.carousel-control-prev{
 	width: auto !important;
+}
+
+#popular {
+	color: #C271FF;
+}
+
+.video-carousel {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.video-thumbnail,
+.card {
+    max-width: 16rem;
+    border: 0;
 }
