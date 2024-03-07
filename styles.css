@@ -111,3 +111,7 @@ header {
 .video-latest {
 	padding: 5rem;
 }
+
+.footer-container {
+	background: #0f2b50; /* orginal value: #071629 appeared too dark on my screen. changed for visual integrity */
+}
