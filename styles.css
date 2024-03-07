@@ -106,3 +106,8 @@ header {
     max-width: 16rem;
     border: 0;
 }
+
+.membership {
+	background: #0f2b50; /* orginal value: #071629 appeared too dark on my screen. changed for visual integrity */
+	width: auto;
+}
