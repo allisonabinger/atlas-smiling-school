@@ -96,10 +96,6 @@ header {
 	color: #C271FF;
 }
 
-.video-carousel {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-}
 
 .video-thumbnail,
 .card {
@@ -110,4 +106,8 @@ header {
 .membership {
 	background: #0f2b50; /* orginal value: #071629 appeared too dark on my screen. changed for visual integrity */
 	width: auto;
+}
+
+.video-latest {
+	padding: 5rem;
 }
